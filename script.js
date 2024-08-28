@@ -5,6 +5,8 @@ function chatbotResponse(userInput) {
         return "Hello! How can I assist you today?";
     } else if (userInput.includes('help')) {
         return "I can help with information about events, membership, and alumni services. What do you need assistance with?";
+    } else if (userInput.includes('hi')) {
+        return "Hi! How can I assist you today?";
     } else if (userInput.includes('events')) {
         return "We have various upcoming events listed on our <a href='https://sites.google.com/view/eec-alumni-association/events-and-news' target='_blank'>Events</a> page. You can find detailed information there.";
     } else if (userInput.includes('forum')) {
