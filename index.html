@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<button class="chatbot-button" onclick="openChat()">💬</button>
+
+<div class="chat-popup" id="chatPopup">
+    <div class="form-container">
+        <h3>Alumni Association Assistant Bot</h3>
+        <label for="msg"><b>Message</b></label>
+        <input type="text" id="user-input" placeholder="Type your message..." required>
+        <button type="button" class="btn" onclick="sendMessage()">Send</button>
+        <div id="chat-output"></div>
+    </div>
+</div>
+
+</body>
+</html>
